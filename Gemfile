@@ -11,7 +11,7 @@ group :development, :test do
 	gem 'pry'
 end
 group :production do
-	gem 'pg'
+	gem 'pg', '~> 1.2', '>= 1.2.3'
 	gem 'rails_12factor'
 end
 
@@ -36,4 +36,4 @@ group :doc do
 	gem 'sdoc', require: false
 end
 
-ruby "2.2.4"
+ruby "2.7.2"
